@@ -1,0 +1,60 @@
+To upgrade Nextjs application:
+npm i -g create-next-app
+
+npx shadcn-ui@latest add button
+
+clerk.com (albertcanada312@gmail.com)
+npm install @clerk/nextjs
+npx shadcn-ui@latest add sheet
+npx shadcn-ui@latest add form
+npx shadcn-ui@latest add input
+npm i axios
+npm install react-hot-toast
+npm i -D prisma
+npx prisma init
+npm i @prisma/client
+npx prisma generate
+npx prisma db push
+npx prisma studio
+npx shadcn-ui@latest add textarea
+npm install uploadthing @uploadthing/react react-dropzone
+npx shadcn-ui@latest add badge
+npx shadcn-ui@latest add command
+npm i @hello-pangea/dnd
+
+npm i react-quill
+npm i @mux/mux-node
+npm i @mux/mux-player-react
+npx shadcn-ui@latest add alert-dialog
+npm i zustand
+npm i react-confetti
+npx shadcn-ui@latest add table
+npm install @tanstack/react-table
+npx shadcn-ui@latest add dropdown-menu
+npm i query-string
+npm i react-icons
+npx shadcn-ui@latest add checkbox
+node scripts/seed.ts
+npx prisma migrate reset
+
+UploadThing (github account EkuaseCEO)
+
+3:33
+albertcanada312@gmail.com (Mux)
+
+6:42:32
+
+TESTING PLATFORM
+jest by facebook
+mocha 
+cypress
+enzyme
+
+
+
+3000
+-1000 (nicholas guy)
+-1000 (ann client)
+-1000 (dbs lady)
+-1000 (payless)
+

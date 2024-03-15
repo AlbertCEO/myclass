@@ -20,7 +20,11 @@ npx shadcn-ui@latest add textarea
 npm install uploadthing @uploadthing/react react-dropzone
 npx shadcn-ui@latest add badge
 npx shadcn-ui@latest add command
+npx shadcn-ui@latest add separator
+npx shadcn-ui@latest add progress
 npm i @hello-pangea/dnd
+npm i stripe
+
 
 npm i react-quill
 npm i @mux/mux-node
@@ -42,7 +46,7 @@ UploadThing (github account EkuaseCEO)
 3:33
 albertcanada312@gmail.com (Mux)
 
-6:42:32
+8:55:04
 
 TESTING PLATFORM
 jest by facebook

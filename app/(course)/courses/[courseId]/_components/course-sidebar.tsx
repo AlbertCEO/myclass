@@ -4,6 +4,7 @@ import { redirect } from "next/navigation";
 
 import { db } from "@/lib/db";
 import { CourseSidebarItem } from "./course-sidebar-item";
+import { CourseProgress } from "@/components/ui/course-progress";
 // import { CourseProgress } from "@/components/course-progress";
 
 // import { CourseSidebarItem } from "./course-sidebar-item";
@@ -45,10 +46,10 @@ export const CourseSidebar = async ({
 
         {purchase && (
           <div className="mt-10">
-            {/* <CourseProgress
+            <CourseProgress
               variant="success"
               value={progressCount}
-            /> */}
+            />
           </div>
         )}
       </div>

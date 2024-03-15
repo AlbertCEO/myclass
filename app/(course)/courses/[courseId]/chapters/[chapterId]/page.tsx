@@ -8,6 +8,9 @@ import { Banner } from "@/components/banner";
 import { Preview } from "@/components/preview";
 import { getChapter } from "@/actions/get-chapter";
 import { VideoPlayer } from "./_components/video-player";
+import { CourseEnrollButton } from "./_components/course-enroll-button";
+import { CourseProgressButton } from "./_components/course-progress-button";
+import { Separator } from "@/components/ui/separator";
 
 // import { VideoPlayer } from "./_components/video-player";
 // import { CourseEnrollButton } from "./_components/course-enroll-button";
@@ -75,9 +78,9 @@ const ChapterIdPage = async ({
         <div>
           <div className="p-4 flex flex-col md:flex-row items-center justify-between">
             <h2 className="text-2xl font-semibold mb-2">
-              {/* {chapter.title} */}
+              {chapter.title}
             </h2>
-            {/* {purchase ? (
+            {purchase ? (
               <CourseProgressButton
                 chapterId={params.chapterId}
                 courseId={params.courseId}
@@ -89,13 +92,13 @@ const ChapterIdPage = async ({
                 courseId={params.courseId}
                 price={course.price!}
               />
-            )} */}
+            )}
           </div>
-          {/* <Separator /> */}
+          <Separator />
           <div>
-            {/* <Preview value={chapter.description!} /> */}
+            <Preview value={chapter.description!} />
           </div>
-          {/* {!!attachments.length && (
+          {!!attachments.length && (
             <>
               <Separator />
               <div className="p-4">
@@ -114,7 +117,7 @@ const ChapterIdPage = async ({
                 ))}
               </div>
             </>
-          )} */}
+          )}
         </div>
       </div>
     </div>

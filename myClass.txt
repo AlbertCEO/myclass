@@ -44,6 +44,8 @@ npm i stripe
 npx shadcn-ui@latest add card
 npm i recharts
 
+stripe listen --forward-to localhost:3000/api/webhook
+
 UploadThing (github account EkuaseCEO)
 
 3:33
@@ -59,6 +61,8 @@ mocha
 cypress
 enzyme
 
+categoryform.tsx
+chapterId route.tsx
 
 
 3000

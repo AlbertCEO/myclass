@@ -23,7 +23,7 @@ npx shadcn-ui@latest add command
 npx shadcn-ui@latest add separator
 npx shadcn-ui@latest add progress
 npm i @hello-pangea/dnd
-npm i stripe
+
 
 
 npm i react-quill
@@ -40,6 +40,9 @@ npm i react-icons
 npx shadcn-ui@latest add checkbox
 node scripts/seed.ts
 npx prisma migrate reset
+npm i stripe
+npx shadcn-ui@latest add card
+npm i recharts
 
 UploadThing (github account EkuaseCEO)
 

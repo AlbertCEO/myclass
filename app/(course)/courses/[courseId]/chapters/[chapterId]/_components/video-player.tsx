@@ -33,6 +33,7 @@ export const VideoPlayer = ({
   const router = useRouter();
   const confetti = useConfettiStore();
 
+  // This code shows that the user has watched this video to the end
   const onEnd = async () => {
     try {
       if (completeOnEnd) {
@@ -55,6 +56,8 @@ export const VideoPlayer = ({
       toast.error("Something went wrong");
     }
   }
+
+
 
   return (
     <div className="relative aspect-video">
